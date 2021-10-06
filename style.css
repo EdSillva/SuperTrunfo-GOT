@@ -1,8 +1,7 @@
-body, main, div, section, a, ul, li, img, figure, p,header, nav, h2 {
+body, main, div, section, a, ul, li, img, figure, p, header, nav, h2, h1 {
   padding: 0;
   margin: 0;
 }
-
 body {
   height: 100vh;
   font-family: "Roboto Mono", monospace;
@@ -11,6 +10,11 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   color: white;
+}
+
+h3 {
+  background-color: red;
+  color: #f1f1f1;
 }
 
 .container {
@@ -53,11 +57,6 @@ button:hover {
 
 h2 {
   color: white;
-}
-
-h3 {
-  background-color: red;
-  color: #f1f1f1;
 }
 
 #cartaEscolhida {
@@ -228,6 +227,18 @@ button {
   #campoBatalha {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .cartaJogador {
+    width: 100%;
+  }
+
+  .versus {
+    width: 100%;
+  }
+
+  .cartaMaquina {
+    width: 100%;
   }
 
   #from {
