@@ -212,3 +212,41 @@ button {
 #reiniciarJogo {
   display: none;
 }
+
+/* celular */
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+    font-size: 12px;
+  }
+  
+  #campoBatalha {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #from {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #escolhaAtributo {
+    display: flow-root;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .opcoes {
+    display: flex;
+    margin-right: -5px;
+    font-size: 14px;
+  }
+
+  #btnJogar {
+    font-size: 12px;
+  }
+
+  #btnNovoJogo {
+    font-size: 12px;
+  }
+}
